@@ -44,3 +44,14 @@ This seems fairly similar to the original titanic competition and will follow th
   - We could look at a count of family members aboard
   - We could look at a 0/1 for travelling alone
   - Thought about male/female but the names are ambiguous
+
+## Submission 1
+
+I had a first attempt based on the thoughts and ideas above. This can be found [here](src/submission-01.ipynb) and some investigation can be found [here](src/submission-01-investigation.ipynb).
+
+This resulted in a 75.8% accuracy and was in the top 1000 results. Looking at other examples I was on the right path and followed most of the same steps of the higher scoring submissions. Weirdly, some of the very highest submissions did almost no data processing and just chucked the raw data at a neural net.
+
+## Final thoughts
+
+I may come back eventually and try improve the score some more but for now I'm going to move on to the monthly challenges to see how those go.
+For the most part I think the most important part of this has been knowing that I'm on the right track with analysing the data but probably spend a bit more time on analysing the data. But also, maybe just chuck all data at a neural net sometimes to see what results you get...
